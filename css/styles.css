@@ -47,52 +47,40 @@ body, p {
 
 * { color:#fff; text-decoration: none;}
 
+h1, h2, h3, h4, h5, h6 {
+    color: #24262a;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
 h1 {
-	color: #24262a;
-	font-weight: 700;
 	font-size: 2.5rem;
 	line-height: 3.25rem;
-	font-family: "Poppins"
 }
 
 h2 {
-	color: #24262a;
-	font-weight: 700;
 	font-size: 2rem;
 	line-height: 2.5rem;
-	font-family: "Poppins"
 }
 
 h3 {
-	color: #24262a;
-	font-weight: 700;
 	font-size: 1.75rem;
 	line-height: 2.25rem;
-	font-family: "Poppins"
 }
 
 h4 {
-	color: #24262a;
-	font-weight: 700;
 	font-size: 1.5rem;
 	line-height: 2rem;
-	font-family: "Poppins"
 }
 
 h5 {
-	color: #24262a;
-	font-weight: 700;
 	font-size: 1.25rem;
 	line-height: 1.625rem;
-	font-family: "Poppins"
 }
 
 h6 {
-	color: #24262a;
-	font-weight: 700;
 	font-size: 1rem;
 	line-height: 1.375rem;
-	font-family: "Poppins"
 }
 
 .p-large {
@@ -120,12 +108,12 @@ h6 {
 }
 
 a {
-	color: #4d5055;
-	text-decoration: underline;
+	color: crimson;
+	text-decoration: none;
 }
 
 a:hover {
-	color: #4d5055;
+	color: #863A6F;
 	text-decoration: underline;
 }
 
@@ -142,7 +130,7 @@ a:hover {
 }
 
 .bg-gray {
-	background-color: #f7f9fb;
+	background-color: #f8f0fa;
 }
 
 .section-divider {
@@ -150,14 +138,33 @@ a:hover {
 	height: 1px;
 	margin: 0;
 	border: none;
-	background-color: #d3dae2;
+
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: "Poppins";
+  color: #ffffff;
+  font-size: 1rem;
+  background: #863A6F;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+.btn:hover {
+  background: transparent;
+  text-decoration: none;
+  border: solid 1px;
 }
 
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-	border: 1px solid #ab6d6d;
-	background-color: #ab6d6d;
+	border: 1px solid #863A6F;
+	background-color: #863A6F;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -168,15 +175,15 @@ a:hover {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #ab6d6d; /* needs to stay here because of the color property of a tag */
+	color: #863A6F; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid #ab6d6d;
-	background-color: #ab6d6d;
+	border: 1px solid #863A6F;
+	background-color: #863A6F;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -187,7 +194,7 @@ a:hover {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #ab6d6d; /* needs to stay here because of the color property of a tag */
+	color: #863A6F; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
@@ -353,9 +360,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.25rem;
-	border: 1px solid #ab6d6d;
+	border: 1px solid #863A6F;
 	border-radius: 32px;
-	background-color: #ab6d6d;
+	background-color: #863A6F;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -494,7 +501,7 @@ input[type='checkbox'] {
 }
 
 .navbar .fa-stack-2x {
-	color: #ab6d6d;
+	color: #863A6F;
 	transition: all 0.2s ease;
 }
 
@@ -508,7 +515,7 @@ input[type='checkbox'] {
 }
 
 .navbar .fa-stack:hover .fa-stack-1x {
-	color: #ab6d6d;
+	color: #863A6F;
 }
 
 .navbar .navbar-toggler {
@@ -571,7 +578,7 @@ input[type='checkbox'] {
 
 .basic-1 .time {
 	margin-bottom: 0.5rem;
-	color: #ab6d6d;
+	color: #863A6F;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 1.5rem;
@@ -610,7 +617,7 @@ input[type='checkbox'] {
 .basic-2 .fas,
 .basic-2 .far {
 	margin-bottom: 1.75rem;
-	color: #ab6d6d;
+	color: #863A6F;
 	font-size: 3.5rem;
 }
 
@@ -881,12 +888,12 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-2x {
-	color: #ab6d6d;
+	color: #863A6F;
 	transition: all 0.2s ease;
 }
 
 .footer .fa-stack:hover .fa-stack-1x {
-	color: #ab6d6d;
+	color: #863A6F;
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
@@ -932,7 +939,7 @@ a.back-to-top {
 }
 
 a:hover.back-to-top {
-	background-color: #ab6d6d;
+	background-color: #863A6F;
 }
 
 
@@ -960,7 +967,7 @@ a:hover.back-to-top {
 
 .ex-basic-1 .text-box {
 	padding: 1.25rem 1.25rem 0.5rem 1.25rem;
-	background-color: #f7f9fb;
+	background-color: #f8f0fa;
 }
 
 .ex-cards-1 .card {
@@ -974,7 +981,7 @@ a:hover.back-to-top {
 }
 
 .ex-cards-1 .card .fa-stack-2x {
-	color: #ab6d6d;
+	color: #863A6F;
 }
 
 .ex-cards-1 .card .fa-stack-1x {
